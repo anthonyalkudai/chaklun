@@ -1,0 +1,268 @@
+.span {
+  font-size: 12pt;
+}
+
+.h2 {
+  font-family: 'Play', sans-serif;
+  font-weight: 600;
+  color: #343434;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.list-square {
+  list-style-type: square;
+  margin-left: 30px;
+}
+
+
+.list-circle {
+  list-style-type: circle;
+}
+
+.h3 {
+  font-family: 'Play', sans-serif;
+  font-weight: 600;
+  color: #343434;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.head-container {
+  position: relative;
+  background-size: cover;
+  background: url(../../assets/images/about/plane4.jpg) no-repeat 50% 50%;
+  background-attachment: inherit;
+  box-shadow: 0 0 0 0 #ffffff;
+}
+
+.head-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.29) 100%) transparent;
+  z-index: 0;
+}
+
+.head-shape {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  z-index: 2;
+  fill: white;
+  transform: scaleY(-1);
+  bottom: -1px;
+}
+
+.head-content {
+  position: relative;
+  text-align: center;
+  padding: 140px 0 110px;
+  margin: 0;
+  z-index: 2;
+}
+
+.head-title {
+  color: white;
+  z-index: 2;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.main-container {
+  width: 85%;
+  margin: 30px auto 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content-row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 100px;
+}
+
+.main-left-content {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.main-right-content {
+  max-width: 50%;
+  padding-right: 100px;
+  flex-basis: 50%;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0;
+  margin-bottom: 25px;
+}
+
+.main-info-title {
+  color: #587483;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.main-right-img {
+  position: relative;
+  border-radius: 20px;
+  /* border: 3px solid red; */
+  height: min-content;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.img-shadow {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background: rgba(217, 232, 237, 0.5);
+  z-index: -1;
+  border-radius: 20px;
+  top: 90px;
+  right: -30px;
+}
+
+.bottom-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 0 0 #fff;
+  overflow-x: hidden;
+}
+
+.bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.bottom-title, .bottom-footer {
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.bottom-left-content, .bottom-right-content {
+  max-width: 45%;
+  flex-basis: 45%;
+  background-color: #ffffff;
+  margin: 5px 20px 40px 20px;
+  height: fit-content;
+}
+
+.bottom-left-content ul, .bottom-right-content ul {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #61686d;
+  padding: 45px 60px;
+}
+
+.btn-style {
+  background-image: linear-gradient(0deg,#202428 0,#6e7a86 100%);
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #343a40;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0 auto;
+  white-space: pre-line;
+  user-select: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.bottom-title {
+  margin-top: 60px;
+}
+
+.bottom-footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text-bottom {
+  font-size: 28px;
+  color: black;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  position: relative;
+  background-size: cover;
+  background: url(../../assets/images/about/plane3.jpg) no-repeat 50% 50%;
+  background-attachment: inherit;
+  box-shadow: 0 0 0 0 #ffffff;
+  padding: 140px 110px 0;
+  margin: 0;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.footer-shape {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  z-index: 2;
+  fill: #f4f4f4;
+  top: -1px;
+}
+
+.footer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.6) 100%) transparent;
+  z-index: 1;
+}
+
+.animated-to-up {
+  transform: translateY(50%);
+  transition: transform 0.5s ease;
+}
+
+.animated-to-right-side {
+  transform: translateX(300%);
+  filter: blur(10px);
+  transition: transform 0.5s ease;
+}
+
+.animated-to-left-side {
+  transform: translateX(-300%);
+  filter: blur(10px);
+  transition: transform 0.5s ease;
+}
+
+.bottom-right-content {
+  margin-left: auto;
+}
+

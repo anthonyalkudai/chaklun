@@ -1,0 +1,21 @@
+.block {
+  background-color: white;
+  border-bottom: 1px solid #ebebeb;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.inner-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.burger-btn {
+  display: inline-block;
+}

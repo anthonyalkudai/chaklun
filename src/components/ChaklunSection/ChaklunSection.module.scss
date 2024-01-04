@@ -1,0 +1,37 @@
+.block {
+  padding: 75px 0;
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.main {
+  width: 49%;
+}
+
+.image {
+  width: 49%;
+
+  img {
+    max-width: 530px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.list {
+  padding-left: 32px;
+}

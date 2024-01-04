@@ -1,0 +1,22 @@
+.block {
+  padding: 75px 0;
+  background-color: #f4f4f4;
+  color: rgb(97, 104, 109);
+  font-size: 20px;
+}
+
+.inner-block {
+  display: flex;
+}
+
+.title {
+  color: #252525;
+  font-size: 36px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}

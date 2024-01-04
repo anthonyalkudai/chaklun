@@ -1,0 +1,41 @@
+.block {
+  padding: 75px 0;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.arrow {
+  background-color: #62852d;
+}
+
+.prev {
+  position: absolute;
+  left: -52px !important;
+  background-color: #62852d !important;
+  height: 50px !important;
+  width: 52px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  &::before {
+    display: none;
+  }
+}
+
+.next {
+  position: absolute;
+  right: -52px !important;
+  background-color: #62852d !important;
+  height: 50px !important;
+  width: 52px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  &::before {
+    display: none;
+  }
+}

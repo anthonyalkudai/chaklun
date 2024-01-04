@@ -1,0 +1,19 @@
+.block {
+  padding: 69px 0 80px;
+}
+
+.inner-block {
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  width: 30%;
+}

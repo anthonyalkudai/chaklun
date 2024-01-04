@@ -1,0 +1,23 @@
+.slick-dots{
+  display: flex !important;
+  justify-content: center;
+  gap: 5px;
+}
+
+.dot {
+  background: rgb(219, 219, 219);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: .1s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(98, 133, 45);
+  }
+}
+
+.dot-active {
+  background-color: rgb(98, 133, 45);
+}

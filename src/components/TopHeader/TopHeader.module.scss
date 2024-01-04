@@ -1,0 +1,34 @@
+.block {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.inner-block {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  padding: 8px 0;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-left: 2px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  
+  * {
+    cursor: pointer;
+  }
+}

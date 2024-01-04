@@ -1,0 +1,113 @@
+.block {
+  font-size: 16px;
+}
+
+.preview-wrapper {
+  margin-bottom: 20px;
+}
+
+.preview {
+  max-height: 511px;
+}
+
+.title {
+  font-family: 'Play', sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 20px;
+  color: #252525;
+  transition: .15s ease;
+
+  &:hover {
+    color: #044CD0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.info-item {
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.category {
+  transition: .15s ease;
+  cursor: pointer;
+  
+  &:hover {
+    color: #044CD0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.separator {
+  box-sizing: content-box;
+  padding-inline: 8px;
+}
+
+.body {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  font-size: 14px;
+  color: #252525;
+  transition: .15s ease;
+  font-weight: 500;
+
+  &:hover {
+    color: #044CD0;
+  }
+}
+
+.next {
+  height: 100%;
+  position: absolute;
+  right: 30px;
+  top: -5px;
+
+  &:hover {
+    svg {
+      fill: white;
+    }
+  }
+
+  svg {
+    fill: rgba(255, 255, 255, 0.5);
+    transition: .15s ease;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.prev {
+  height: 100%;
+  position: absolute;
+  left: 30px;
+  top: -5px;
+  fill: rgba(255, 255, 255, 0.5);
+
+  &:hover {
+    svg {
+      fill: white;
+    }
+  }
+
+  svg {
+    fill: rgba(255, 255, 255, 0.5);
+    transition: .15s ease;
+    width: 32px;
+    height: 32px;
+  }
+}
