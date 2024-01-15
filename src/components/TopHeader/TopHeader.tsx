@@ -13,7 +13,7 @@ function TopHeader() {
                 <div className={c['inner-block']}>
                     <div className={c.left}>
                         <figure className={c.icon}><Clock/></figure>
-                        <p className={c.text}>Неділя - Вихідний</p>
+                        <p className={c.text}>Sunday is a day off</p>
                     </div>
                     <div>
                         <div className={c.icons}>

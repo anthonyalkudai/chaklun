@@ -161,29 +161,29 @@ function AboutSection() {
             <div ref={bottomContainer} className={`${c['bottom-container']} ${c['bottom-anim']}`}>
                 <div className={c['bottom-content']}>
                     <div className={c['bottom-title']}>
-                        <h3 className={`${c['text-bottom']} ${c.h3}`}>Техніко-технічні характеристики БпАК "ЧАКЛУН"</h3>
+                        <h3 className={`${c['text-bottom']} ${c.h3}`}>Technical and technical characteristics of UAV "CHAKLUN"</h3>
                     </div>
                     <div ref={leftSide} className={`${c['bottom-left-content']} ${c['animated-to-left-side']}`}>
                         <ul className={c['list-circle']}>
-                            <li>Тип: Безпілотний авіаційний комплекс літакового типу</li>
-                            <li>Функції/призначення: Аерозйомка та аерофотографія місцевості з прив'язкою координат, проведення спостережних та розвідувальних місій</li>
-                            <li>Транспортні габарити: Розмах крила – 1400 мм, габаритна довжина планера – 910 мм</li>
-                            <li>Злітна маса: робоча злітна вага – 2,2 кг, максимальна – 3,6 кг</li>
-                            <li>Крейсерська швидкість: 80 км/год</li>
-                            <li>Час польоту: Час перебування у повітрі – 60 хв. (гарантовано)</li>
-                            <li>Довжина маршруту за виліт: Тривалість маршруту – до 100 км</li>
+                            <li>Type: Aircraft-type unmanned aircraft complex</li>
+                            <li>Functions/purposes: Aerial surveying and aerial photography of the area with coordinate reference, conducting observation and reconnaissance missions</li>
+                            <li>Transport dimensions: wingspan - 1400 mm, overall length of the glider - 910 mm</li>
+                            <li>Take-off weight: working take-off weight - 2.2 kg, maximum - 3.6 kg</li>
+                            <li>Cruising speed: 80 km/h</li>
+                            <li>Flight time: Time in the air – 60 minutes. (guaranteed)</li>
+                            <li>The length of the route per departure: The length of the route is up to 100 km</li>
                         </ul>
                     </div>
                     <div ref={rightSide} className={`${c['bottom-right-content']} ${c['animated-to-right-side']}`}>
                         <ul className={c['list-circle']}>
-                            <li>Крейсерська висота польоту: Крейсерська висота - 500 м, Можлива висота польоту – до 3000 м</li>
-                            <li>Допустиме вітрове навантаження в польоті: Максимальна швидкість вітру під час експлуатації – до 12 м/с</li>
-                            <li>Експлуатаційний температурний діапазон: -20... +40 (літій-іонні батареї зменшують ємність до 30% в залежності від температури)</li>
-                            <li>Максимальна швидкість заданого польоту: 130 км/год</li>
+                            <li>Cruise altitude: Cruise altitude - 500 m, Possible flight altitude - up to 3000 m</li>
+                            <li>Permissible wind load in flight: The maximum wind speed during operation is up to 12 m/s</li>
+                            <li>Operating temperature range: -20... +40 (lithium-ion batteries reduce capacity by up to 30% depending on temperature)</li>
+                            <li>The maximum speed of the given flight: 130 km/h</li>
                         </ul>
                     </div>
                     <div className={c['bottom-footer']}>
-                        <Link to={'/'} className={c['btn-style']}>Файл для завантаження</Link>
+                        <Link to={'/'} className={c['btn-style']}>File to download</Link>
                     </div>
                 </div>
             </div>

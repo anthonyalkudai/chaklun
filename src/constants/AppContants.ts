@@ -2,23 +2,23 @@ import {IMenuItem} from "../types/types";
 
 export const menuItems: IMenuItem[] = [
     {
-        title: 'Головна',
+        title: 'Main',
         path: '/',
     },
     {
-        title: 'Про проєкт',
+        title: 'About',
         path: '/about',
     },
     {
-        title: 'Фонд',
+        title: 'Fond',
         path: '/fond',
     },
     {
-        title: 'Блог',
+        title: 'Blog',
         path: '/blog',
     },
     {
-        title: 'Контакти',
+        title: 'Contacts',
         path: '/contacts',
     },
 ]

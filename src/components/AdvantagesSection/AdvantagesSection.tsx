@@ -83,8 +83,8 @@ function AdvantagesSection() {
             <Container>
                 <div className={c['inner-block']}>
 
-                    <SectionTitle text={'ПЕРЕВАГИ БпЛА "Чаклун"'} />
-                    <p className={c.text}>На сьогодні є гостра потреба саме в малих розвідниках. Квадрокоптери, якими намагаються закрити певні питання, не справляються з розвідувальними завданнями з огляду на невелику дальність та тривалість польоту, яку може забезпечити саме безпілотний літак. Використовуючи БпЛА "Чаклун", наші військові звернули увагу на певні переваги цього безпілотника:</p>
+                    <SectionTitle text={'ADVANTAGES of the "Chaklun" UAV'} />
+                    <p className={c.text}>Today there is an acute need for small scouts. Quadcopters, with which they try to close certain issues, do not cope with reconnaissance tasks, given the small range and duration of the flight, which can be provided by an unmanned aircraft. Using the Chaklun UAV, our military drew attention to certain advantages of this drone:</p>
 
                     <div className={c.content}>
                         <Slider
