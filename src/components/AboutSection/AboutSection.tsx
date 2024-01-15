@@ -3,6 +3,8 @@ import c from './AboutSection.module.scss'
 import plane1 from 'assets/images/about/plane1.jpg'
 import plane2 from 'assets/images/about/plane2.jpg'
 import {Link} from "react-router-dom";
+import React, { Component } from 'react';
+import Pdf from '../Documents/Document.pdf';
 
 function AboutSection() {
     const containers = useRef<HTMLDivElement[]>([])
@@ -197,7 +199,27 @@ function AboutSection() {
                 <div className={c['footer-overlay']}></div>
             </div>
         </div>
+
+
+
+        class Download extends Component {
+
+            render() {
+        
+            return (
+                <div className = "App">
+                    <a href = {Pdf} target = "_blank">Download Pdf</a>
+                </div>
+            );
+        
+            }
+        }
+        
+        
+
+
     );
 }
 
+export default Download;
 export default AboutSection;
