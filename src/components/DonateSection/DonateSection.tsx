@@ -17,10 +17,10 @@ function DonateSection() {
                     <div className={c['inner-content']}>
 
                         <div>
-                            <SectionTitle className={c.title} text={'Хочеш щоб наші ЗСУ "бачили краще»?'} />
-                            <p className={c.text}>Благодійний фонд "Вірний напрямок" збирає кошти на виготовлення БпЛА "Чаклун" для ЗСУ.</p>
+                            <SectionTitle className={c.title} text={'Do you want our Armed Forces to "know more that our enemy"?'} />
+                            <p className={c.text}>The "True Direction" charity fund is collecting funds for the production of the "Chaklun" UAV for the Armed Forces.</p>
                             <div className={c['btn-block']}>
-                                <button className={c.btn}>Долучайтесь! МОНОБАНКА </button>
+                                <button className={c.btn}>Join in! MONOBANK </button>
                             </div>
                         </div>
 

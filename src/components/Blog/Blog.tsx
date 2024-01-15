@@ -64,7 +64,7 @@ function Blog({ blog }: IBlogProps) {
             </div>
             <p className={c.body}>{blog.body}</p>
             {(blog.additionalBody && blog.additionalBody.length > 0) && (
-                <Link to={'/'} className={c['read-more']}>Читати далі...</Link>
+                <Link to={'/'} className={c['read-more']}>Read more...</Link>
             )}
         </div>
     );

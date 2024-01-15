@@ -10,15 +10,15 @@ function AmountSection() {
 
                     <div className={c['item']}>
                         <h1 className={c.title}>210 +</h1>
-                        <p>Навчених пілотів</p>
+                        <p>Trained pilots</p>
                     </div>
                     <div className={c['item']}>
                         <h1 className={c.title}>250+</h1>
-                        <p>Працюючих бортів</p>
+                        <p>Working boards</p>
                     </div>
                     <div className={c['item']}>
                         <h1 className={c.title}>100 +</h1>
-                        <p>Підрозділів мають комплекс</p>
+                        <p>Subdivisions have a complex</p>
                     </div>
 
                 </div>

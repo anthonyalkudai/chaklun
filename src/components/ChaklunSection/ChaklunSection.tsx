@@ -10,26 +10,24 @@ function ChaklunSection() {
             <Container>
                 <div className={c['inner-block']}>
                     <div className={c.title}>
-                        <SectionTitle text={'Склад комплексу "Чаклун"'}/>
+                        <SectionTitle text={'Warehouse of the "Chaklun"'}/>
                     </div>
 
                     <div className={c.content}>
                         <div className={c.main}>
-                            <p className={c.text}>Готовий комплекс БПАК "Чаклун" передається у вигляді повністю двох зібраних та налаштованих планерів, оснащених повними комплектами необхідної електроніки, ноутбуком зі встановленим програмним забезпеченням та комплектом необхідних аксесуарів.</p>
+                            <p className={c.text}>The ready-made "Chaklun" UAV complex is delivered in the form of two completely assembled and configured gliders, equipped with complete sets of necessary electronics, a laptop with installed software and a set of necessary accessories.</p>
 
                             <ol className={c.list}>
-                                <li><strong>Планер:</strong> налаштований та повністю готовий до застосування - 2
-                                    шт.
+                                <li><strong>Glider:</strong> configured and completely ready for use - 2 pcs.
                                 </li>
-                                <li><strong>Акумулятор:</strong> - 4 шт.</li>
-                                <li><strong>Пристрій відео-фотозйомки:</strong> "GoPro Hero"– 2 шт. (або інше
-                                    обладнання вагою до 200 г)
+                                <li><strong>Battery:</strong> - 4 pcs.</li>
+                                <li><strong>Video and photo shooting device:</strong> "GoPro Hero"– 2 pcs. (or other equipment weighing up to 200 g)
                                 </li>
-                                <li><strong>Запасний пропелер</strong> - 2 шт.</li>
-                                <li><strong>Пристрій заряду батареї</strong> портативний (12-220V) – 1 шт.</li>
-                                <li><strong>Ноутбук</strong> з встановленим програмним забезпеченням - 1 шт.</li>
-                                <li><strong>Ремкомплект</strong> мінімальний польовий – 1 шт.</li>
-                                <li><strong>Передавач</strong> (дистанційний пульт керування) – 1шт.</li>
+                                <li><strong>Spare propeller</strong> - 2 pcs.</li>
+                                <li><strong>Battery charging device</strong> portable (12-220V) – 1 pc.</li>
+                                <li><strong>Laptop</strong> with installed software - 1 pc.</li>
+                                <li><strong>Repair kit</strong> minimum field - 1 pc.</li>
+                                <li><strong>Transmitter</strong> (remote control panel) – 1 pc.</li>
                             </ol>
                         </div>
                         <div className={c.image}>

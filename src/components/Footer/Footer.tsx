@@ -11,13 +11,11 @@ function Footer() {
 
                     <div className={c.upper}>
                         <div className={c.section}>
-                            <h3 className={c.title}>Про нас</h3>
-                            <p className={c.text}>Метою нашого проєкту "Ми - Очі ЗСУ" є вироблення на зібрані благодійні
-                                кошти українських комплексів БпАК ”ЧАКЛКУН”, та передача їх захисникам України. І не
-                                тільки передача, а й абсолютно безкоштовний курс навчання керування таким БпАК.</p>
+                            <h3 className={c.title}>About us</h3>
+                            <p className={c.text}>The goal of our project "We are the eyes of the Armed Forces" is to produce, using the collected charity funds, the Ukrainian complexes of the Ukrainian Air Force "CHAKLKUN" and hand them over to the defenders of Ukraine. And not only the transfer, but also a completely free training course for managing such BpAK.</p>
                         </div>
                         <div className={c.section}>
-                            <h3 className={c.title}>Приєднуйся до нас</h3>
+                            <h3 className={c.title}>Join us</h3>
                             <ul className={c.list}>
                                 <li><Link className={c.link} to={'/'}>LinkedIn</Link></li>
                                 <li><Link className={c.link} to={'/'}>Telegram</Link></li>
@@ -26,28 +24,28 @@ function Footer() {
                             </ul>
                         </div>
                         <div className={c.section}>
-                            <h3 className={c.title}>Ресурси</h3>
+                            <h3 className={c.title}>Resource</h3>
                             <ul className={c.list}>
-                                <li><Link className={c.link} to={'/'}>Документація</Link></li>
-                                <li><Link className={c.link} to={'/'}>Відео</Link></li>
-                                <li><Link className={c.link} to={'/'}>Підтримка</Link></li>
+                                <li><Link className={c.link} to={'/'}>Documentation</Link></li>
+                                <li><Link className={c.link} to={'/'}>Video</Link></li>
+                                <li><Link className={c.link} to={'/'}>Support</Link></li>
                             </ul>
                         </div>
                         <div className={c.section}>
-                            <h3 className={c.title}>Розсилка новин</h3>
+                            <h3 className={c.title}>Newsletter</h3>
                             <div className={c.content}>
-                                <p className={c.text}>Подпишитесь на рассылку, чтобы получать по электронной почте последние новости.</p>
+                                <p className={c.text}>Subscribe to the newsletter to receive the latest news by email.</p>
                                 <form className={c.form}>
                                     <div className={c['inner-form']}>
                                         <input className={c.input} placeholder={'Email'} type="text"/>
-                                        <button className={c.btn}>Підписуйся</button>
+                                        <button className={c.btn}>Sign up</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                     <div className={c.lower}>
-                        <p>&copy; 2023 БпАК "Чаклун" - Український безпілотник</p>
+                        <p>&copy; 2023 "Chaclun" UAV - Ukrainian drone</p>
                     </div>
 
                 </div>

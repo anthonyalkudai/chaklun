@@ -10,35 +10,29 @@ function HomeTasks() {
         <section className={c.block}>
             <Container>
                 <div className={c['inner-block']}>
-                    <SectionTitle text={'Комплекс "ЧАКЛУН" виконує усі необхідні завдання:'} />
+                    <SectionTitle text={'The "CHAKLUN" complex performs all the necessary tasks:'} />
 
                     <ul className={c.list}>
                         <li className={c.item}>
                             <HomeTasksItem pictureSrc={plane}>
-                                <p>Політ може виконуватися:<br/>- <strong>в автоматичному режимі</strong> за завданим
-                                    маршрутом.<br/>- <strong>в керованому режимі</strong>, що надає пілоту можливість за
-                                    потреби змінювати курс польоту</p>
+                                <p>The flight can be performed:<br/>- <strong>in automatic mode</strong> according to the given route.<br/>- <strong>in controlled mode</strong>, which allows the pilot to change the flight course if necessary</p>
                             </HomeTasksItem>
                         </li>
                         <li className={c.item}>
                             <HomeTasksItem>
                                 <div>
-                                    <p><strong>Фото/відео фіксування місцевості</strong> з
-                                    координатами із записом на бортовий зйомний носій.</p>
+                                    <p><strong>Photo/video recording of the area</strong>with coordinates recorded on onboard removable media.</p>
                                     <br/>
-                                    <p>Застосовується камера
-                                    Go-Pro та он-лайн курсова камера.</p>
+                                    <p>A Go-Pro camera and an online course camera are used.</p>
                                 </div>
                             </HomeTasksItem>
                         </li>
                         <li className={c.item}>
                             <HomeTasksItem>
                                 <div>
-                                    <p>Повернення на точку зльоту:</p>
+                                    <p>Return to the point of departure:</p>
                                     <br/>
-                                    <p><strong>система
-                                    повернення додому</strong> при блокуванні сигналу – інерційна дубльована система
-                                    навігації.</p>
+                                    <p><strong>return home system</strong> when the signal is blocked - an inertial duplicated navigation system.</p>
                                     <br/>
                                 </div>
                             </HomeTasksItem>

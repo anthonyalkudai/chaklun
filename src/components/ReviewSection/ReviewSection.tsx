@@ -21,21 +21,21 @@ function ReviewSection() {
         <div className={c.block}>
             <Container>
                 <div className={c['inner-block']}>
-                    <h2 className={c.title}>Відгуки наших користувачів</h2>
-                    <p className={c.text}>Коментарі представників аеророзвідки із практичного застосування БпЛА "Чаклун"</p>
+                    <h2 className={c.title}>Feedback from our users</h2>
+                    <p className={c.text}>Comments of representatives of aerial intelligence on the practical application of the Chaklun UAV</p>
 
                     <Slider
                         {...sliderSettings}
                     >
                         <Review
                             avatar={avatar1}
-                            author={'Дніпропетровська група аеророзвідки'}
-                            review={'"Наше подразделение аэроразведки завершило учебный курс по использованию БпЛА "Чаклун". Для максимально результативного выполнения поставленных задач на несмолкающих фронтах нашей Родины, нам крайне необходима была эта птица. Надежные "ОЧІ ЗСУ" – это возможность: вовремя выявить и истребить оккупанта, и уберечь как можно больше наших защитников и защитниц."'}
+                            author={'Dnipropetrovsk air reconnaissance group'}
+                            review={'"Our air reconnaissance unit has completed a training course on the use of the Chaklun UAV. For the most effective performance of the assigned tasks on the constant fronts of our Motherland, we desperately needed this bird. The reliable "EYES of the Armed Forces" is an opportunity: it will detect and exterminate the occupier in time, and protect as many of our defenders as possible."'}
                         />
                         <Review
                             avatar={avatar2}
-                            author={'Андрей Сарвира'}
-                            review={'"Наше подразделение аэроразведки завершило учебный курс по использованию БпЛА "Чаклун". Для максимально результативного выполнения поставленных задач на несмолкающих фронтах нашей Родины, нам крайне необходима была эта птица. Надежные "ОЧІ ЗСУ" – это возможность: вовремя выявить и истребить оккупанта, и уберечь как можно больше наших защитников и защитниц."'}
+                            author={'Andrey Sarvyra'}
+                            review={'"Our air reconnaissance division has completed a training course on the use of the Chaklun UAV. For the most effective performance of the assigned tasks on the constant fronts of our Motherland, we desperately need this bird. The reliable "EYES of the Armed Forces" is an opportunity: it will detect and exterminate the occupier in time, and protect as many of our defenders as possible."'}
                         />
                     </Slider>
                 </div>

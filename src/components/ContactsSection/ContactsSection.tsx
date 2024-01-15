@@ -16,7 +16,7 @@ function ContactsSection() {
                 </div>
                 <div className={c['head-overlay']}></div>
                 <div className={c['head-content']}>
-                    <h2 className={c['head-title']}>Зв'яжіться з нами</h2>
+                    <h2 className={c['head-title']}>Contact us</h2>
                 </div>
             </div>
 
@@ -25,14 +25,14 @@ function ContactsSection() {
                     <div className={c['main-inner']}>
 
                         <div className={c['form-side']}>
-                            <h3 className={c.title}>Напишіть нам</h3>
-                            <p>Ми високо цінуємо можливість зворотного зв'язку з Вами. Використовуйте цю форму, щоб надіслати запитання.</p>
+                            <h3 className={c.title}>Write to us</h3>
+                            <p>We highly appreciate the possibility of feedback from you. Use this form to submit a question.</p>
 
                             <form className={c.form}>
                                 <div className={c.inputs}>
                                     <ContactsInput
                                         className={`${c.control}`}
-                                        placeholder={'Ім\'я'}
+                                        placeholder={'Name'}
                                     />
                                     <ContactsInput
                                         className={`${c.control}`}
@@ -41,24 +41,24 @@ function ContactsSection() {
                                 </div>
                                 <ContactsInput
                                     className={`${c.control}`}
-                                    placeholder={'Тема'}
+                                    placeholder={'Subject'}
                                 />
                                 <ContactsTextarea
                                     className={`${c.control} ${c.textarea}`}
-                                    placeholder={'Повідомлення'}
+                                    placeholder={'Message'}
                                 />
                                 <div>
-                                    <button className={c.btn}>Надіслати</button>
+                                    <button className={c.btn}>Send</button>
                                 </div>
                             </form>
                         </div>
 
                         <div className={c.info}>
-                            <h3 className={c.title}>Офіс</h3>
+                            <h3 className={c.title}>Office</h3>
 
                             <div className={c['info-item']}>
                                 <figure className={c.icon}></figure>
-                                <span>Дніпро, Україна</span>
+                                <span>Dnipro, Ukraine</span>
                             </div>
                             <div className={c.separator}></div>
                             <div className={c['info-item']}>

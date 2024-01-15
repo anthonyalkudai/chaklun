@@ -17,12 +17,11 @@ function YoutubeSection() {
 
                         <div className={c.main}>
                             <div>
-                                <h2 className={c.title}>Слідкуйте за нами на YouTube-каналі</h2>
+                                <h2 className={c.title}>Follow us on the YouTube channel</h2>
                                 <h3 className={c['sub-title']}><span
-                                    className={c.span}>"БпАК "Чаклун" - Український</span> безпілотник"</h3>
+                                    className={c.span}>"Chaklun" - Ukrainian</span> UAV</h3>
                             </div>
-                            <p className={c.text}>Наш проєкт вже працює. Наші безпілотники вдало зарекомендували себе у
-                                справі та вже сьогодні наближають нашу Перемогу.</p>
+                            <p className={c.text}>Our project is already working. Our drones have successfully proven themselves in business and are already bringing our Victory closer today.</p>
                             <button className={c.btn}>
                                 <figure className={c.icon}><YoutubeIcon/></figure>
                                 <span>YouTube</span>

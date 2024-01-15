@@ -74,7 +74,7 @@ function AboutSection() {
                 </div>
                 <div className={c['head-overlay']}></div>
                 <div className={c['head-content']}>
-                    <h2 className={`${c['head-title']} ${c.h2}`}>Про БпАК "ЧАКЛУН"</h2>
+                    <h2 className={`${c['head-title']} ${c.h2}`}>UAV "Chaklun"</h2>
                 </div>
             </div>
 
@@ -84,30 +84,30 @@ function AboutSection() {
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#587483" className="bi bi-airplane-engines-fill" viewBox="0 0 16 16" style={{ transform: 'rotate(90deg)', marginBottom: 10 }}>
                             <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0"/>
                         </svg>
-                        <h3 className={`${c['main-title']} ${c.h3}`}>БпАК "ЧАКЛУН"</h3>
+                        <h3 className={`${c['main-title']} ${c.h3}`}>UAV "Chaklun"</h3>
 
                         <div className={c['main-info-title']}>
                         <span className={c.span}>
-                            Малий безпілотний розвідувальний авіаційний комплекс літакового типу українського виробництва, який є альтернативою квадрокоптерам та дорогим імпортним розвідувальним дронам.
+                            Small unmanned reconnaissance aviation complex of the aircraft type of Ukrainian production, which is an alternative to quadcopters and expensive imported reconnaissance drones.
                         </span>
                             <br />
                             <br />
-                            <span className={c.span}>Сфера використання:</span>
+                            <span className={c.span}>Scope of application:</span>
                             <ul className={c['list-square']}>
                                 <li>
-                                    <span className={c.span}>розвідування території супротивника</span>
+                                    <span className={c.span}>reconnaissance of the enemy's territory</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>аерозйомка та аерофотографія місцевості з фіксацією координат</span>
+                                    <span className={c.span}>aerial survey and aerial photography of the area with fixation of coordinates</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>патрулювання території</span>
+                                    <span className={c.span}>patrolling the territory</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>коригування артилерії</span>
+                                    <span className={c.span}>patrolling the territory</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>пошукові операції</span>
+                                    <span className={c.span}>search operations</span>
                                 </li>
                             </ul>
                         </div>
@@ -134,23 +134,23 @@ function AboutSection() {
                             <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5"/>
                             <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585c.055.156.085.325.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5c0-.175.03-.344.085-.5M10 7a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm4-3a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V9a1 1 0 0 1 1-1"/>
                         </svg>
-                        <h3 className={`${c['main-title']} ${c.h3}`}>Розвідувальні БпЛА для виконання таких завдань:</h3>
+                        <h3 className={`${c['main-title']} ${c.h3}`}>Reconnaissance UAVs to perform the following tasks:</h3>
                         <div className={c['main-info-title']}>
                             <ul className={c['list-square']}>
                                 <li>
-                                    <span className={c.span}>ведення повітряної розвідки визначених районів з метою виявлення місць дислокації військ, об'єктів, бойової техніки та засобів ураження противника</span>
+                                    <span className={c.span}>conducting aerial reconnaissance of designated areas in order to identify locations of troops, facilities, military equipment and means of defeating the enemy</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>виявлення цілей для вогневого ураження та коригування вогню артилерії, контролю результатів вогневого ураження визначених цілей</span>
+                                    <span className={c.span}>identifying targets for fire damage and adjusting artillery fire, monitoring the results of fire damage to specified targets</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>підтвердження раніше отриманих розвідувальних даних</span>
+                                    <span className={c.span}>confirmation of previously received intelligence data</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>уточнення рельєфу місцевості районів майбутніх бойових дій</span>
+                                    <span className={c.span}>clarifying the terrain of the areas of future hostilities</span>
                                 </li>
                                 <li>
-                                    <span className={c.span}>перевірка ступеню маскування своїх об'єктів</span>
+                                    <span className={c.span}>checking the degree of masking of your objects</span>
                                 </li>
                             </ul>
                         </div>

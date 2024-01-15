@@ -16,7 +16,7 @@ function FondSection() {
                     </div>
                     <div className={c['head-overlay']}></div>
                     <div className={c['head-content']}>
-                        <h2 className={c['head-title']}>"Вірний напрямок"</h2>
+                        <h2 className={c['head-title']}>"True direction"</h2>
                     </div>
                 </div>
 
@@ -25,45 +25,45 @@ function FondSection() {
 
                         <div className={c['main-title-container']}>
                             <div className={c['main-title']}>
-                                <span className={c.span}>Нажаль, на сьогодні військові вимушені купувати комплекси за власні або волонтерські кошти.</span>
+                                <span className={c.span}>Unfortunately, today the military is forced to buy complexes with their own or volunteer funds.</span>
                                 <br/>
-                                <span className={c.span}>Спираючись на передплачені замовлення сьогодні за наявних потужностей ми виробляємо 20-30 літаків на місяць.</span>
+                                <span className={c.span}>Based on pre-paid orders, today we are producing 20-30 aircraft per month at our current capacity.</span>
                                 <br/>
                                 <span
-                                    className={c.span}>Хоча, у той же час, наявні потужності дозволяють виробляти більше <strong>100 комплексів</strong> на місяць, що потребує гарантованих замовлень та фінансування.</span>
+                                    className={c.span}>Although, at the same time, the available capacities allow to produce more <strong>100 complexes</strong> per month, which requires guaranteed orders and financing.</span>
                                 <br/>
-                                <span className={c.span}>Головне, чого ми прагнемо - це те, щоб військові, наші захисники, не купували, а отримували</span>
+                                <span className={c.span}>The main thing we want is for the military, our defenders, not to buy, but to receive</span>
                                 <br/>
-                                <span className={c.span}>безкоштовно комплекси "Чаклун".</span>
+                                <span className={c.span}>"Chaklun" complexes for free.</span>
                                 <br/>
                                 <br/>
-                                <span className={c.span}>Благодійний фонд "Вірний напрямок" підтримує нашу мету, тому ініціював проєкт "Ми - Очі ЗСУ". Відправляючи свої ДОНАТИ на рахунки цього фонду – ви автоматично приймаєте участь в виготовленні БпАК "ЧАКЛУН" для ЗСУ. А це – ще один крок до перемоги. Долучайтесь!</span>
+                                <span className={c.span}>The Charitable Foundation "True Direction" supports our goal, which is why it initiated the project "We are the eyes of the Armed Forces of Ukraine". By sending your DONATIONS to the accounts of this fund, you automatically participate in the production of the "CHAKLUN" UAH for the Armed Forces. And this is another step towards victory. Join in!</span>
                                 <br/>
                             </div>
                         </div>
 
                         <div className={c['btn-container']}>
-                            <Link to="/" className={c['btn-style']}>МОНОБАНКА</Link>
+                            <Link to="/" className={c['btn-style']}>MONOBANK</Link>
                         </div>
 
                         <div className={c['card-info-container']}>
                             <div className={c['card-background']}>
                                 <div className={c['card-info']}>
                             <span
-                                className={c.span}><strong>БО «БЛАГОДІЙНИЙ ФОНД «ВІРНИЙ НАПРЯМОК»</strong></span>
+                                className={c.span}><strong>BECAUSE THE "FAITHFUL DIRECTION" CHARITY FUND</strong></span>
                                     <span
                                         className={c.span}><strong>CO «CHARITY FOUNDATION «RIGHT DIRECTION»</strong></span>
-                                    <span><strong className={c.yellow}>Адреса: </strong>49000, м.Дніпро, вул.Старокозацька, буд. 52-А, кв.98</span>
-                                    <span><strong className={c.yellow}>ЄДРПОУ: </strong>44870443</span>
+                                    <span><strong className={c.yellow}>Address: </strong>49000, Dnipro, Starokozatska str., bldg. 52-A, apartment 98</span>
+                                    <span><strong className={c.yellow}>EDRPOU: </strong>44870443</span>
                                     <span><strong className={c.yellow}>IBAN: </strong>UA983073500000026004001400201 (UAH/USD)</span>
-                                    <span><strong className={c.yellow}>МФО: </strong>307350</span>
+                                    <span><strong className={c.yellow}>MFO: </strong>307350</span>
                                     <div className={c.center}>
                                 <span
-                                    className={c.span}><em>УВАГА: Обов'язково в призначенні платежу зазначайте:</em></span>
+                                    className={c.span}><em>ATTENTION: Be sure to specify in the purpose of payment:</em></span>
                                     </div>
                                     <div className={c.center}>
                             <span className={c.span}>
-                                <em><span className={c.yellow}><strong>"Благодійна допомога"</strong></span></em>
+                                <em><span className={c.yellow}><strong>"Charity"</strong></span></em>
                             </span>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ function FondSection() {
 
                         <div className={c['contact-info-container']}>
                             <div className={c['contact-info']}>
-                                <span className={c.span}>Контактні дані: тел: +380 (97) 029 77 77</span>
+                                <span className={c.span}>Contact details: phone: +380 (97) 029 77 77</span>
                                 <span className={c.span}>email: <Link to="/">cf.rightdirection@gmail.com</Link><br/></span>
                             </div>
                         </div>

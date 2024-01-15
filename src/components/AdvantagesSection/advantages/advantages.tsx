@@ -15,63 +15,63 @@ import feather from 'assets/images/home/advantages/pero.png'
 const advantages: ReactNode[] = [
     <Advantage
         className={c.advantage}
-        title={'МАЛА ЗЛІТНА ВАГА'}
+        title={'LOW TAKEOFF WEIGHT'}
         pictureSrc={feather}
-        description={'Вага готового до польоту спорядженого планера "Чаклун" в базовій представленій комплектації - 2,2 кг. З використанням додаткових приладів, максимально можлива вага - до 4 кг.'}
+        description={'The weight of the ready-to-fly equipped glider "Chaklun" in the basic presented configuration is 2.2 kg. With the use of additional devices, the maximum possible weight is up to 4 kg.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'ВЕЛИКА ТРИВАЛІСТЬ ТА ДАЛЬНІСТЬ ПОЛЬОТУ'}
+        title={'LONG FLIGHT DURATION AND DISTANCE'}
         pictureSrc={airplane}
-        description={'Тривалість польоту безпілотника "Чаклун" складає від однієї години (довжина маршруту до 120 км). Це результат, який у два-три рази перевищує можливості будь-якого квадрокоптеру.'}
+        description={'The duration of the flight of the "Chaklun" drone is from one hour (the length of the route is up to 120 km). This is a result that exceeds the capabilities of any quadcopter by two or three times.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'ПРОТИДІЯ ЗРЕБ'}
+        title={'ANTI-FIRE'}
         pictureSrc={reb}
-        description={'Після відправлення на місію оператор на пульті керування контролює відповідність маршруту завданій місії. У разі виявлення ознак спуфінгу оператор має можливість коригувати поточний курс. А у разі втрати сигналу GPS літак, незважаючи на це, продовжує виконувати завдану місію.'}
+        description={'After sending on a mission, the operator on the control panel monitors the compliance of the route with the assigned mission. If signs of spoofing are detected, the operator has the opportunity to adjust the current course. And in case of loss of the GPS signal, the aircraft continues to perform the assigned mission, despite this.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'ФУНКЦІОНАЛ ТА СИСТЕМИ ЗАХИСТУ'}
+        title={'FUNCTIONALITY AND PROTECTION SYSTEMS'}
         pictureSrc={lock}
-        description={'Безпілотник "Чаклун" має функціонал та системи захисту подібні до тих, якими оснащені безпілотники з вартістю в десятки-сотні раз вищою. І це вже перевірено на практиці.'}
+        description={'The Chaklun drone has functionality and protection systems similar to those equipped with drones with a cost tens to hundreds of times higher. And this has already been tested in practice.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'ВЛАСНЕ ВИРОБНИЦТВО'}
+        title={'OWN PRODUCTION'}
         pictureSrc={gear}
-        description={'Завдяки тому, що БпЛА "Чаклун" виробляється в Україні, є можливість проводити оперативний капітальний ремонт (заміну окремих елементів конструкції або перенесення вцілілого оснащення в новий.)'}
+        description={'Thanks to the fact that the "Chaklun" UAV is manufactured in Ukraine, it is possible to carry out operational overhaul (replacement of individual structural elements or transfer of surviving equipment to a new one.)'}
     />,
     <Advantage
         className={c.advantage}
-        title={'НЕВЕЛИКА ВАРТІСТЬ'}
+        title={'LOW COST'}
         pictureSrc={costs}
-        description={'Порівняно з аналогами, вартість одного зібраного та налаштованого безпілотника Чаклун – невисока. Тобто, ЗСУ можуть отримати більше безпілотників за менші гроші.'}
+        description={'Compared to analogues, the cost of one assembled and configured Chaklun drone is low. That is, the Armed Forces can get more drones for less money.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'КОМПАКТНІСТЬ ТА ТРАНСПОРТУВАННЯ'}
+        title={'COMPACTNESS AND TRANSPORTATION'}
         pictureSrc={suitcase}
-        description={'Планер "Чаклун" може транспортуватися як в розібраному, так і в зібраному вигляді. Завдяки розмаху крил всього 1400 мм - це можливо у будь-якому транспортному засобі.'}
+        description={'The Chaklun glider can be transported both disassembled and assembled. Thanks to the wingspan of only 1400 mm, this is possible in any vehicle.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'ПРОСТЕ ПОВОДЖЕННЯ'}
+        title={'SIMPLE BEHAVIOR'}
         pictureSrc={thumbup}
-        description={'Легко навчитись керувати "Чаклуном", адже в нього: зліт "з руки", виконання маршруту в автоматичному режимі, посадка в ручному режимі за літаковим принципом з системою стабілізації.'}
+        description={'It is easy to learn how to fly the "Magician", because it has: take-off "by hand", execution of the route in automatic mode, landing in manual mode according to the aircraft principle with a stabilization system.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'ЗНОСОСТІЙКІСТЬ'}
+        title={'DURABILITY'}
         pictureSrc={crystal}
-        description={'Матеріал планера є міцним і водночас достатньо еластичним. Це робить його ремонтопридатним у польових умовах. '}
+        description={'The material of the glider is strong and at the same time sufficiently elastic. This makes it serviceable in the field.'}
     />,
     <Advantage
         className={c.advantage}
-        title={'ЗАХИСТ ОПЕРАТОРА БпЛА.'}
+        title={'UAV OPERATOR PROTECTION.'}
         pictureSrc={map}
-        description={'Можливість запрограмувати "Чаклуну" точку повернення на будь-якій відстані від вихідної точки, в яку оператор переміститься за час виконання місії БпЛА.'}
+        description={'The ability to program the "Witch" return point at any distance from the starting point, to which the operator will move during the execution of the UAV mission.'}
     />,
 ]
 
