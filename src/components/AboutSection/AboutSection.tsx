@@ -3,7 +3,6 @@ import c from './AboutSection.module.scss'
 import plane1 from 'assets/images/about/plane1.jpg'
 import plane2 from 'assets/images/about/plane2.jpg'
 import {Link} from "react-router-dom";
-import pdf from "assets/pdf/arw_outgppp.pdf"
 
 function AboutSection() {
     const containers = useRef<HTMLDivElement[]>([])
@@ -184,7 +183,7 @@ function AboutSection() {
                         </ul>
                     </div>
                     <div className={c['bottom-footer']}>
-                    <a href = {pdf} target = "_blank"><Link to={'/'} className={c['btn-style']}>File to download</Link></a>
+                        <Link to={'/'} className={c['btn-style']}>File to download</Link>
                     </div>
                 </div>
             </div>
