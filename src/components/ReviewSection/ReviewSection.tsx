@@ -3,8 +3,9 @@ import c from './ReviewSection.module.scss'
 import Container from "../Container/Container";
 import Slider from "react-slick";
 import Review from "../Review/Review";
-import avatar1 from 'assets/images/home/avatar1.jpg'
-import avatar2 from 'assets/images/home/avatar2.jpg'
+import avatar1 from 'assets/images/home/avatar1.jpg';
+import avatar2 from 'assets/images/home/avatar2.jpg';
+
 
 function ReviewSection() {
     const sliderSettings = {
