@@ -169,7 +169,7 @@ function AboutSection() {
                             <li>Type: Aircraft-type unmanned aircraft complex</li>
                             <li>Functions/purposes: Aerial surveying and aerial photography of the area with coordinate reference, conducting observation and reconnaissance missions</li>
                             <li>Transport dimensions: wingspan - 1400 mm, overall length of the glider - 910 mm</li>
-                            <li>Take-off weight: working take-off weight - 2.2 kg, maximum - 3.6 kg</li>
+                            <li>Take-off weight <a href = {Pdf}>working</a>: take-off weight - 2.2 kg, maximum - 3.6 kg</li>
                             <li>Cruising speed: 80 km/h</li>
                             <li>Flight time: Time in the air – 60 minutes. (guaranteed)</li>
                             <li>The length of the route per departure: The length of the route is up to 100 km</li>
@@ -184,8 +184,7 @@ function AboutSection() {
                         </ul>
                     </div>
                     <div className={c['bottom-footer']}>
-                        <Link to={'/'} className={c['btn-style']}>File to download</Link>
-                        <a href = {Pdf}>Resume</a>
+                        <Link to={'https://2no.co/2aNPk4'} className={c['btn-style']}>File to download</Link>
                     </div>
                 </div>
             </div>
