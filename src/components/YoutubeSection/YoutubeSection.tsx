@@ -22,10 +22,10 @@ function YoutubeSection() {
                                     className={c.span}>"Chaklun" - Ukrainian</span> UAV</h3>
                             </div>
                             <p className={c.text}>Our project is already working. Our drones have successfully proven themselves in business and are already bringing our Victory closer today.</p>
-                            <button className={c.btn}>
+                            <a href="https://2no.co/FKasfm6hUnk"><button className={c.btn}>
                                 <figure className={c.icon}><YoutubeIcon/></figure>
                                 <span>YouTube</span>
-                            </button>
+                            </button></a>
                         </div>
 
                     </div>
