@@ -4,6 +4,7 @@ import plane1 from 'assets/images/about/plane1.jpg'
 import plane2 from 'assets/images/about/plane2.jpg'
 import {Link} from "react-router-dom";
 import Pdf from 'assets/images/pdf/arw_outgppp.pdf';
+import YoutubeVideo from 'components/YoutubeVideo/YoutubeVideo';
 
 function AboutSection() {
     const containers = useRef<HTMLDivElement[]>([])
@@ -78,6 +79,7 @@ function AboutSection() {
                     <h2 className={`${c['head-title']} ${c.h2}`}>UAV "Chaklun"</h2>
                     <br>
                     </br>
+                        <YoutubeVideo />
                         <img src='https://2no.co/1lrHz.png'></img>
                 </div>
             </div>
