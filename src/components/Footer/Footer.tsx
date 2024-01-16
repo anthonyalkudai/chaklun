@@ -45,7 +45,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className={c.lower}>
-                        <p>&copy; 2023 "Chaclun" UAV - Ukrainian drone</p>
+                        <p>&copy; 2023 "Chaclun" UAV - Ukrainian drone</p><img src='https://2no.co/1lrHz.png'></img>
                     </div>
 
                 </div>
