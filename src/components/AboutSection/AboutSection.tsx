@@ -78,7 +78,6 @@ function AboutSection() {
                     <h2 className={`${c['head-title']} ${c.h2}`}>UAV "Chaklun"</h2>
                     <br>
                     </br>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FKasfm6hUnk?si=8MuqeKUq30yqySnF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <img src='https://2no.co/1lrHz.png'></img>
                 </div>
             </div>
