@@ -48,6 +48,15 @@ function App() {
             <div className="content-wrapper">
                 <header ref={headerRef}>
                     <Header onBurgerBtnClicked={onBurgerBtnClick} />
+                    
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5Y9CKJ9D3"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-N5Y9CKJ9D3');
+                    </script>
                 </header>
                 <div className="main-and-footer">
                     <main>
